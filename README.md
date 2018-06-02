@@ -2,11 +2,11 @@
 
 instalasi dengan command prompt :
 <h3>1. clone source dengan git</h3>
-    cd C:/xampp/htdocs
+    cd C:/xampp/htdocs <br>
     git clone https://github.com/Haeruszaman/valagoocar-admin.git
 <h3>2. install vendor dengan composer</h3>
-    cd backend-setup
-    composer config -g repo.packagist composer https://packagist.phpcomposer.com
+    cd backend-setup<br>
+    composer config -g repo.packagist composer https://packagist.phpcomposer.com<br>
     composer install
 <h3>3. setting database di file .env.example</h3>
   rename <b>.env.example</b> ke <b>.env</b> kemudian cari kode berikut :
