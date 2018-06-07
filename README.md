@@ -5,7 +5,7 @@ instalasi dengan command prompt :
     cd C:/xampp/htdocs <br>
     git clone https://github.com/Haeruszaman/valagoocar-admin.git
 <h3>2. install vendor dengan composer</h3>
-    cd backend-setup<br>
+    cd valagoocar-admin<br>
     composer config -g repo.packagist composer https://packagist.phpcomposer.com<br>
     composer install
 <h3>3. setting database di file .env.example</h3>
